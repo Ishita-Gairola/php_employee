@@ -1,7 +1,40 @@
+.body {
+	min-height: 100%;
+}
+
 .brand {
 	color: plum;
 }
 
 .brand-text {
 	color: rgb(20, 11, 13);
+}
+
+.login {
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.login-card form {
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 50px;
+	margin-bottom: 10%;
+	padding-bottom: 20px;
+	transition: 0.3s;
+	width: 300px;
+	text-align: justify;
+}
+.login-card form div {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
